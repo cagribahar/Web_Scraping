@@ -86,7 +86,7 @@ sayi4=0
 for i in pdf_link : 
 
     file_url = f"{i}"
-    save_path = f"C:\\Users\\bilal\\OneDrive\\Masaüstü\\pdf\\{sayi4}.pdf"
+    save_path = f"path/{sayi4}.pdf"
     download_file(file_url, save_path)
     sayi4=sayi4+1
 
@@ -99,3 +99,4 @@ time.sleep(500000)
 
 
     
+
